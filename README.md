@@ -1,25 +1,11 @@
-
-# Combat Master Tool
-
-for moding Combat Master files
+> [!NOTE]
+> This is a beta version. If you encounter any bugs, please report them on the GitHub repository.
 
 
+## Combat Master Mod Manager
 
-
-## Installation
-
-Download as .zip and extract or:
-
-```bash
-git clone https://github.com/TangenteLakai/Combat-Master-Tool.git
-cd Combat-Master-Tool
-python file-copier.py
-```
-
-
-
-
-## Features
+The Combat Master Mod Manager is a Python application designed for easy management of mods in Combat Master.
+Features
 
 - Export game files
 - Import game files
@@ -27,3 +13,7 @@ python file-copier.py
 - Copy  game files
 - Edit  game files
 
+
+## Interface
+
+![](https://github.com/GiFXED/Combat-Master-Mod-Manager/blob/main/image.png)
