@@ -140,6 +140,10 @@ class ModManager(QtWidgets.QWidget):
             "SteamLibrary\\steamapps\\common\\Combat Master\\Data\\StreamingAssets\\Bundles"
         ]
 
+        linux_path = os.path.expanduser("~/.local/share/Steam/steamapps/common/Combat Master/Data/StreamingAssets/Bundles/")
+        if os.path.exists(linux_path):
+            return linux_path
+
         for drive in possible_drives:
             for path in possible_paths:
                 potential_path = os.path.join(drive, path)
