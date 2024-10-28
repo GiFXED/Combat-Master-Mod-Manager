@@ -1,5 +1,5 @@
-> [!NOTE]
-> This is a beta version. If you encounter any bugs, please report them on the GitHub repository.
+> [!Warning]
+> Moving the repo to an original one as not only is https://github.com/TangenteLakai a script kiddie they also used ChatGPT to code their program.
 
 
 ## Combat Master Mod Manager
